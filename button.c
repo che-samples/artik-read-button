@@ -7,6 +7,12 @@
 #define INPUT 1
 #define OUTPUT 0
 
+// inputPin differ depending on the module
+// Artik 5 - use 121 pin
+// Artik 7 - use pin 8
+// Find more info at:
+// https://developer.artik.io/documentation/getting-started-artik/tutorials/read-a-button.html
+
 int inputPin = 8;
 
 bool digitalPinMode(int pin, int dir){
